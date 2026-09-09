@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 输入 / 输出的大体积 .docx（外部数据，不入库）
+docs/input/*
+!docs/input/.gitkeep
+docs/output/*
+!docs/output/.gitkeep
+temp/
+
+# 系统文件
+.DS_Store
+Thumbs.db
